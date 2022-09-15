@@ -38,7 +38,7 @@
     4 Mostrar "ingresa tu año de nacimiento"
     5 Asignar año de naciemiento
     6 Asignar edad = año actual - año de nacimiento
-    7 Mostrar "cual es tu noimbre"
+    7 Mostrar "cual es tu nombre"
     8 Asignar Nombre
     9 Mostrar "Hola, Nombre" "tu edad es" 30.
     10 Fin
