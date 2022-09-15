@@ -49,4 +49,10 @@
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
-    TU RESPUESTA AQUI
+    1 Inicio
+    2 precio anterior (float) precio Actual (float) porcentaje de incremento (float9
+    3 12.5, precio actual, porcentaje
+    4 " ingresa precio actual"
+    5 porcentaje = 12.5 - 18.3
+    
+    
