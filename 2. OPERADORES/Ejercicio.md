@@ -13,7 +13,11 @@ X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
 
 X = (5 + 2 * 4) – (25 +. 5) * 2
 
-      TU RESPUESTA AQUI
+      x = (5 + 2 * 4) - (25 + 5) * 2
+      X = (7 * 4) - 30 * 2
+      X = 28 - 30 * 2
+      X = - 2 * 2
+      X = -4
 
 X = (100/5^2 + 1) + 11 * 3
 
@@ -35,7 +39,9 @@ notifica que ha sido acreedor al bono de puntualidad. Si el empleado tiene
 baja al final del mes. Describe tal situación usando operadores
 relacionales.
 
-      TU RESPUESTA AQUI
+      X= <1 bono de puntuialidad
+      X= >1 suspencion de un dia
+      X= >=3 baja al fin de mes
 
 Reto. Analiza el problema y selecciona la opción que consideres que lo
 resuelve:
@@ -43,7 +49,10 @@ resuelve:
 “C” es mayor que “D”. “E” es menor que “F”. “G” es menor que “E” y “D” es
 mayor que “F”. ¿Cuál es el menor de todos?
 
-      TU RESPUESTA AQUI
+      X = C > D = flase 
+      X = E < F = true
+      X = G < E = false
+      X = D > F = false
 
 3^2 – (10/(8-4))+9 > 100 
 
