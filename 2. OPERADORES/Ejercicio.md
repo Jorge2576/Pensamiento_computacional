@@ -16,18 +16,35 @@ X = (5 + 2 * 4) – (25 +. 5) * 2
       x = (5 + 2 * 4) - (25 + 5) * 2
       X = 28 - (25 + 5) * 2
       X = 28 - 30 * 2
+      X = -2 * 2
+      X = -4
 
 X = (100/5^2 + 1) + 11 * 3
 
-      TU RESPUESTA AQUI
+      X = ( 100 / 5^2 + 1) + 11 * 3
+      X = ( 100 / 25 + 1) + 11 * 3
+      X = ( 4 + 1) + 11 * 3
+      X = 5 + 11 * 3
+      X = 5 + 33
+      X = 38
 
 X = ((8-6)^2*3)^3.
 
-      TU RESPUESTA AQUI
+      X = ((8-6)^2*3)^3
+      X = (2^2*3)^3
+      X = (4*3)^3
+      X = 12^3
+      X = 1728
 
 x = ((8+5) *4) * (10-6)/4) 
 
-      TU RESPUESTA AQUI
+      X = ((8+5) *4) * ((10-6)/4)
+      X = ((13*4) *4) * ((10-6)/4)
+      X = (52 * 4) * ((10-6)/4)
+      X = 208 * (4/4)
+      X = 208 * 1
+      X = 208
+      
 
 ## OPERADORES RELACIONALES
 Reto. Una empresa de logística ofrece a sus trabajadores un bono de
@@ -47,10 +64,14 @@ resuelve:
 “C” es mayor que “D”. “E” es menor que “F”. “G” es menor que “E” y “D” es
 mayor que “F”. ¿Cuál es el menor de todos?
 
-      X = C > D = flase 
-      X = E < F = true
-      X = G < E = false
-      X = D > F = false
+C > D
+E < F
+G < E
+D > F
+
+C > D > F > E > G
+
+G es el caracter menor de todos por reglas de variables.
 
 3^2 – (10/(8-4))+9 > 100 
 
@@ -58,8 +79,8 @@ mayor que “F”. ¿Cuál es el menor de todos?
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha (FALSO O VERDADERO).
-1) (45<120 OR 12<120) =
-2) (6! =6) && (12>22)) =
-3) ¬ (128<145 && 12>9) =
-4) “Daniela”< >”DANIELA” =
-5) 10*20< >210 =
+1) (45<120 OR 12<120) = true
+2) (6! =6) && (12>22)) = False
+3) ¬ (128<145 && 12>9) = true
+4) “Daniela”< >”DANIELA” = false
+5) 10*20< >210 = false
