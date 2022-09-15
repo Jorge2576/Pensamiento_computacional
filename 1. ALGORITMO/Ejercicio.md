@@ -31,6 +31,18 @@
     30 AÑOS.
     
     FIN.
+    
+    1 Inicio 
+    2 Declarar año actual ( int) año de nacimiento (int) edad (int) nombre (string)
+    3 Asignar año actual =2022, año de nacimiento, edad.
+    4 Mostrar "ingresa tu año de nacimiento"
+    5 Asignar año de naciemiento
+    6 Asignar edad = año actual - año de nacimiento
+    7 Mostrar "cual es tu noimbre"
+    8 Asignar Nombre
+    9 Mostrar "Hola, Nombre" "tu edad es" 30.
+    10 Fin
+    
 
 
 
