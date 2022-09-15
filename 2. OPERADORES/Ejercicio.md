@@ -75,7 +75,14 @@ G es el caracter menor de todos por reglas de variables.
 
 3^2 – (10/(8-4))+9 > 100 
 
-      TU RESPUESTA AQUI
+      X = 3^2-(10/(8-4))+9 > 100
+      X = 3^2-(10/4)+9 > 100
+      X = 3^2-2.5+9 > 100
+      X = 9-2.5+9 > 100
+      X = 6.5 + 9 > 100
+      X = 15.5 > 100
+      X = false
+      
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha (FALSO O VERDADERO).
