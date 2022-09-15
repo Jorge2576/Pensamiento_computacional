@@ -11,7 +11,7 @@ NUMEROS DECIMALES:
 
 CARACTER : 
 
-      
+      Char
 
 CADENA DE CARACTERES : 
 
