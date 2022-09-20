@@ -43,6 +43,20 @@
     9 Mostrar "Hola, Nombre" "tu edad es" 30.
     10 Fin
     
+    1 inicio
+    2 declarar uno_nac(int)
+               uno_atual(int)
+               edad(int)
+    3 mostrar ("Dime tu año de nacimiento")
+    4 asignar año_nac
+    5 mostrar ("dime el año en el que estas")
+    6 asignar año_actual
+    7 edad=naño_nacimiento-año_actual=
+    8 mostrar ("tienes",edad,"años")
+    9 fin
+    
+    
+    
 
 
 
