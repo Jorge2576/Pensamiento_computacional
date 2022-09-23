@@ -119,4 +119,26 @@
 
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
-        TU ALGORITMO Y DIAGRAMA AQUI
+           1 inicio
+	   2 num
+	   3 Coloca el numero que deseas conocer
+	   4 num
+	   5 si num es divisible entre dos y el residuo es cero
+	   6 entonces el num es par
+	   7 sino el num no es par 
+	   8 fin
+	   
+	   Algoritmo sin_titulo
+	   num<-0
+	   Escribir "Coloca el numero que quieres conocer"
+	   Leer num
+	   Si num mod 2=0 Entonces
+		   Escribir num, " es un numero par"
+	   SiNo
+		   Escribir num, " es un numero no  par"
+	   Fin Si
+
+           FinAlgoritmo
+	
+	![Diagrama de nuemro par e impar](https://user-images.githubusercontent.com/113545541/191891355-343272f2-8079-4d07-9281-e524198122e1.png)
+
