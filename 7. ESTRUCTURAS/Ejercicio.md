@@ -201,10 +201,37 @@
     11 imc=peso/altura
     12 segun imc hacer
     13 imc<18.5 "Peso deficiente"
-    14 imc=>18.5 "Peso correcto"
-    15 imc>250 " Sobrepeso"
+    14 imc=>18.5 o 29.9"Peso correcto"
+    15 imc>29.9 " Sobrepeso"
     16 de otro modo
     17 Error de datos
     18 fin
     
+    Algoritmo sin_titulo
+	nombre<-" "
+	peso<-0
+	altura<-0
+	imc<-0
+	Escribir "Hola, ingresa tu nombre"
+	Leer nombre
+	Escribir nombre, " ingresa tu peso"
+	Leer peso
+	Escribir "ingresa tu altura"
+	Leer altura
+	imc<-peso/altura
+	
+	
+	
+	Segun imc Hacer
+		imc<18.5:
+			Escribir imc, " peso indeficiente"
+		imc>=24.9 o 29.9: 
+			Escribir imc, " peso correcto"
+		imc>29.9 o 250:
+			escribir imc, " sobrepeso"
+		De Otro Modo:
+			Escribir "Datos invalidsos"
+	Fin Segun
 
+	
+     FinAlgoritmo
