@@ -235,3 +235,6 @@
 
 	
      FinAlgoritmo
+     
+  ![image](https://user-images.githubusercontent.com/113545541/192607286-f0038be9-d3bc-4ac0-bc1f-2e67c595c1bb.png)
+
