@@ -141,4 +141,70 @@
            FinAlgoritmo
 	
 	![Diagrama de nuemro par e impar](https://user-images.githubusercontent.com/113545541/191891355-343272f2-8079-4d07-9281-e524198122e1.png)
+	
+	
+	Programa que nos diga si la letra es vocal o no lo es
+	
+	   1 inicio
+           2 declarar vocal "char"
+	   3 mostrar "Escribe una letra para saber si es vocal"
+	   4 asignar vocal
+	   5 en caso de vocal hacer
+	   6 en caso de "A" o "a"
+	   7 mostrar "Es vocal"
+	   10 en caso de "E" o "e"
+	   11 mostrar "Es vocal"
+	   13 en caso de "I" o "i"
+	   14 mostrar "Es vocal"
+	   18 en caso de "O" o "o"
+	   19 mostrar "Es vocal"
+	   20 en caso de "U" o "u"
+	   21 mostrar "Es vocal"
+	   22 sino
+	   23   escribir "No es vocal"
+	   24 fin
+	   
+	   Algoritmo sin_titulo
+	   vocal<-" "
+	   Escribir "Escribe una letra para saber si es vocal"
+	   Leer vocal
+	   Segun vocal Hacer
+		    "A" o "a":
+			    Escribir  vocal, " Es vocal"
+		    "E" o "e":
+			    Escribir  vocal, " Es vocal"
+		    "I" o "i":
+			    Escribir  vocal, " Es vocal"
+		    "O" o "o":
+			    Escribir  vocal, " Es vocal"
+		    "U" o "u":
+			    Escribir  vocal, " Es vocal"
+			    
+		De Otro Modo:
+			Escribir vocal, " No es vocal"
+	   Fin Segun
+           FinAlgoritmo
+![image](https://user-images.githubusercontent.com/113545541/192600036-0d3e907a-9203-45e6-bf17-bc7a5d72de8d.png)
+
+
+    Calculadora de indice de peso corporal
+    1 incio
+    2 declarar nombre " " (char)
+    4 peso 0 (float)
+    5 altura 0 (float)
+    7 imc 0 (float)
+    6 mostrar "Hola, cual es tu nombre"
+    7 asignar nombre 
+    8 mostrar nombre, " Cual es tu peso?"
+    9 asignar peso
+    10 mostrar nombre, " Cual es tu altura"
+    11 imc=peso/altura
+    12 segun imc hacer
+    13 imc<18.5 "Peso deficiente"
+    14 imc=>18.5 "Peso correcto"
+    15 imc>250 " Sobrepeso"
+    16 de otro modo
+    17 Error de datos
+    18 fin
+    
 
