@@ -237,4 +237,21 @@
      FinAlgoritmo
      
   ![image](https://user-images.githubusercontent.com/113545541/192607286-f0038be9-d3bc-4ac0-bc1f-2e67c595c1bb.png)
+  
+  TABLA DE MULTIPLICAR 
+  ![image](https://user-images.githubusercontent.com/113545541/192851847-14f45d49-e576-4eb1-88b1-c4a005ad536d.png)
+           
+    
+    Algoritmo sin_titulo
+	num<-0
+	i<-0
+	res<-0
+	Escribir "Ingresa la tabla de multiplicar que quieres saber"
+	Leer num
+	Para i<-0 Hasta 10 Con Paso 1 paso Hacer
+		res<-i*num
+		Escribir num," x ",i," = ",res
+	Fin Para
+    FinAlgoritmo
+
 
