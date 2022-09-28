@@ -253,5 +253,23 @@
 		Escribir num," x ",i," = ",res
 	Fin Para
     FinAlgoritmo
+    
+    tablas de multiplicar de 1 al 10
+    Algoritmo sin_titulo
+	j<-0
+	i<-0
+	res<-0
+	
+	Para i<-1 Hasta 10 Con Paso 1 paso Hacer
+		Para j<-1 Hasta 10 Con Paso 1 paso Hacer
+			res<-i*j
+			Escribir i," x ",j," = ",res
+		Fin Para
+	Fin Para
+    FinAlgoritmo
+    
+   ![image](https://user-images.githubusercontent.com/113545541/192857717-2ce72769-a3dc-480d-ae0f-0f2996dd08d9.png)
+
+
 
 
