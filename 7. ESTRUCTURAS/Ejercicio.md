@@ -280,6 +280,56 @@
     FinAlgoritmo
     
    ![image](https://user-images.githubusercontent.com/113545541/192857717-2ce72769-a3dc-480d-ae0f-0f2996dd08d9.png)
+   
+    Programa para calcular la cailificacion de 10 alumnos
+    Algoritmo sin_titulo
+	nombre<-" "
+	cal1<-0
+	cal2<-0
+	cal3<-0
+	cal4<-0
+	promedio<-0
+	i<-0
+	Para i<-1 Hasta 10 Con Paso 1 paso Hacer
+	Escribir "Hola, escribe el nombre del alumno"
+	Leer nombre
+	Escribir "Coloca la primera calificacion del alumno ",nombre
+	Leer cal1
+	Si cal1>0 y cal1<11 Entonces
+		escribir "Coloca la segunda calificacion del alumno ",nombre
+		Leer cal2
+		Si cal2>0 y cal2<11 Entonces
+			escribir "Coloca la tercera calificacion del alumno ",nombre
+			Leer cal3
+			Si cal3>0 y cal3<11 Entonces
+				escribir "Coloca la cuarta calificacion del alumno ",nombre
+				Leer cal4
+				Si cal4>0 y cal4<11 Entonces
+					promedio<-(cal1+cal2+cal3+cal4)/4
+					Si promedio>6 Entonces
+						escribir" el promedio de ",nombre," es ",promedio," Aprobado"
+					SiNo
+						escribir" el promedio de ",nombre," es ",promedio," Reprobado"
+					Fin Si
+				SiNo
+					escribir "calificacion invalida"
+				Fin Si
+			SiNo
+				escribir "Calificacion invalida"
+			Fin Si
+		SiNo
+			escribir "Calificacion invalida"
+		Fin Si
+	SiNo
+		escribir "calificacion invalida"
+	Fin Si
+	Fin Para
+    FinAlgoritmo
+![Diagrama sin título drawio](https://user-images.githubusercontent.com/113545541/192930346-00e6e822-0815-44c5-b72f-1b5a183a165c.png)
+
+   
+   
+   
 
 
 
