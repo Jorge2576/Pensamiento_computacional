@@ -402,4 +402,47 @@
 ![diagrama para calculo de IMC](https://user-images.githubusercontent.com/113545541/193191855-8df58a90-73ca-4d76-93ee-1ffef58a09c9.png)
 
 
+    Algoritmo sin_titulo
+	num1<-0
+	num2<-0
+	num3<-0
+	Escribir "Coloca el primer numero"
+	Leer num1
+	Escribir "coloca el segundo numero"
+	leer num2 
+	Mientras num1=num2 Hacer
+		Escribir "Numero repetido"
+		Escribir "coloca el segundo numero"
+		leer num2
+	Fin Mientras
+	Escribir "coloca el tercer numero"
+	leer num3
+	Mientras num2=num3 o num3=num1 Hacer
+		Escribir "numero repetido"
+		Escribir  "coloca el tercer numero"
+		leer num3
+	Fin Mientras
+	si num1<num2 y num1<num3 Entonces
+		si num2<num3
+			mostrar num1,num2,num3
+		sino mostrar num1,num3,num2
+		FinSi
+	FinSi
+	si num2<num1 y num2<num3 Entonces
+		si num1<num3s Entonces
+			mostrar num2,num1,num3
+			sino mostrar num2,num3,num1
+		FinSi
+	FinSi
+	si num3<num1 y num3<num2 Entonces
+		si num1<num2
+			Mostrar num3,num1,num2
+			sino mostrar num3,num2,num1
+		FinSi
+	FinSi
+    FinAlgoritmo
+   ![Programa para detectar de menor a mayor](https://user-images.githubusercontent.com/113545541/193327360-7080d30b-d266-44e3-84af-63db1189cec6.png)
+
+
+    
 
