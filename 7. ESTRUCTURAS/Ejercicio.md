@@ -32,6 +32,41 @@
 		   Fin Si
 	   Fin Si
            FinAlgoritmo
+	   
+	   Algoritmo sin_titulo
+	   	nombre<-" "
+		peso<-0
+		altura<-0
+		imc<-0
+		i<-1
+		Escribir "Hola, ingresa tu nombre"
+		Leer nombre
+		Repetir
+			Escribir nombre,", ingrese su peso (kg)"
+			leer peso
+		Hasta Que peso>=30 y peso<=250
+		Repetir
+			Escribir nombre,", ingrese su altura (mts)"
+			leer altura
+		Hasta Que altura>=0.50 y altura<=2.60
+		imc=peso/(altura*altura)
+		Escribir nombre," su IMC es de:",imc
+		si (imc<18.5) Entonces
+			Escribir "peso inferior al normal"
+		SiNo
+			si (imc>=18.5 y imc<=24.9) Entonces
+				Escribir "Normal"
+			SiNo
+				si (imc>=25.0 y imc<=30) Entonces
+					Escribir "Peso superior al normal"
+				SiNo
+					Escribir "sobrepeso"
+				FinSi
+			FinSi
+			
+		FinSi
+           FinAlgoritmo
+
         
   ![Diagrama de compracion num](https://user-images.githubusercontent.com/113545541/191880082-ac194b06-36ec-42d9-b1e3-bc751523c044.png)
 
@@ -330,7 +365,41 @@
    
    
    
+    s
+    Algoritmo sin_titulo
+		nombre<-" "
+		peso<-0
+		altura<-0
+		imc<-0
+		i<-1
+		Escribir "Hola, ingresa tu nombre"
+		Leer nombre
+		Repetir
+			Escribir nombre,", ingrese su peso (kg)"
+			leer peso
+		Hasta Que peso>=30 y peso<=250
+		Repetir
+			Escribir nombre,", ingrese su altura (mts)"
+			leer altura
+		Hasta Que altura>=0.50 y altura<=2.60
+		imc=peso/(altura*altura)
+		Escribir nombre," su IMC es de:",imc
+		si (imc<18.5) Entonces
+			Escribir "peso inferior al normal"
+		SiNo
+			si (imc>=18.5 y imc<=24.9) Entonces
+				Escribir "Normal"
+			SiNo
+				si (imc>=25.0 y imc<=30) Entonces
+					Escribir "Peso superior al normal"
+				SiNo
+					Escribir "sobrepeso"
+				FinSi
+			FinSi		
+		FinSi
+     FinAlgoritmo
 
+![diagrama para calculo de IMC](https://user-images.githubusercontent.com/113545541/193191855-8df58a90-73ca-4d76-93ee-1ffef58a09c9.png)
 
 
 
