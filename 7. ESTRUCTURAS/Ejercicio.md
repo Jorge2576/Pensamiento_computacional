@@ -444,5 +444,45 @@
    ![Programa para detectar de menor a mayor](https://user-images.githubusercontent.com/113545541/193327360-7080d30b-d266-44e3-84af-63db1189cec6.png)
 
 
+    1 incio 
+    2 num1
+    3 num2
+    4 num3
+    5 i
+    6 mostrar "Ingresa el primer numero"
+    7 asignar num1
+    8 mostrar "Ingresa el segundo numero"
+    9 asignar num2
+    10 mientras num1=num2 entonces 
+    11 mostrar "Numero repetidos
+    12 mostrar "ingresa el segundo numero"
+    13 asignar num2
+    14 fin mientras 
+    15 mostrar "Ingresa el terer numero"
+    16 asignar num3
+    17 mientras num3=num2 o num3=num1 entonces
+    18 mostrar "Numero repetido"
+    19 mostrar "Ingresa el tercer numero"
+    20 asignar num3 
+    21 mientras num1<num2 y num1<num3 hacer
+    21    mostrar num1,num2,num3
+    22    mientras num2<num3 hacer 
+    23    mostrar num1,num3,num2
+    24    fin mientras
+    25    mientras num2<num1 y num2<num3 hacer
+    26    mostrar num,2,num1,num3
+    27    mientras num1<num3 hacer
+    28    mostrar num2,num3,num1
+    29    fin mientras 
+    30    mientras num3<num1 y num3<num1 hacer
+    31    mostrar num3,num1,num2
+    32    mientras num1<num2 hacer
+    33    mostrar num3,num2,num3
+    34    fin mientras
+    36    i=i+1
+    37 fin mientras
+    37 fin
+    
+
     
 
