@@ -483,6 +483,61 @@
     37 fin mientras
     37 fin
     
+    Algoritmo para adivina el numero
+    
+    1 inicio 
+    2 num1=0(int)
+    3 mum2=27(int)
+    4 vidas=5
+    5 mostrar "Bienvendo al juego adivina el numero secreto"
+    6 Mientras>0 Hacer
+    7 mostrar "ingresa el numero"
+    8 asignar num1
+    9 si num1=num2 entonces
+    10 Mostrar "Felicidades, adivinaste el numero secreto"
+    11 vidas=0
+    12 sino
+    13 vidas=vidas-1
+    14 si vidas=0 Entonces
+    15 mostrar "Has fallado los 5 intentos"
+    16 mostrar "El numero secreto es ",num2
+    17 sino
+    18 mostrar "Has fallado te quedan ",vidas," vidas"
+    19 fin si
+    20 fin si
+    21 fin mientras
+    22 fin
+    
+    
+
+     Algoritmo sin_titulo
+	num1<-0
+	num2<-27
+	vidas=5
+	escribir "Bienvenido al juego adivina el numero secreto"
+	Mientras vidas>0 Hacer
+		Escribir "Ingresa un numero"
+		leer num1
+		si num1=num2 Entonces
+			Escribir "Felicidades, encontraste el numero ",num2
+			vidas=0
+		SiNo 
+			vidas=vidas-1
+			si vidas=0 Entonces
+				Escribir "Has fallado los 5 intentos"
+				Escribir "El numero secreto es ",num2
+			SiNo 
+				Escribir "Fallaste, te quedan ",vidas," vidas"
+				
+			FinSi
+			
+		FinSi
+	FinMientras
+
+     FinAlgoritmo
+
+    
+    
 
     
 
