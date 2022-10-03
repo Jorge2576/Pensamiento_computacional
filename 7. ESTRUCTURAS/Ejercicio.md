@@ -535,6 +535,9 @@
 	FinMientras
 
      FinAlgoritmo
+     
+   ![diagrama juego Adivina el numero secreto](https://user-images.githubusercontent.com/113545541/193684758-31890451-8cb4-43b0-953f-9bf93c1d4593.png)
+
 
     
     
