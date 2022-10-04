@@ -537,6 +537,68 @@
      FinAlgoritmo
      
    ![diagrama juego Adivina el numero secreto](https://user-images.githubusercontent.com/113545541/193684758-31890451-8cb4-43b0-953f-9bf93c1d4593.png)
+   
+   
+    ejercicio adivina el numero completo
+    1 inicio
+    2 declarar numsec azar(100)+1
+    3 asignar (vidas=7 y numsec azar)
+    4 mostrar "Adivina el nnumero secreto"
+    5 asignar num
+    6 mientras numsec=/num y vidas>0 hacer
+    7  si numsec>num
+    8    Mostarar "Tu numero es menor al numero secreto"
+    9    vidas=vidas-1
+    10   mostrar "Adivina el numero secreto ","te quedan ",vidas," vidas"
+    11   asignar num}
+    12 sino 
+    13   mostrar "El numero ingresado es mayor al numero secreto"
+    14   vidas=vidas-1
+    15   mostrar "Adivina el numero secreto","te quedan ",vidas," vidas
+    16 finsi
+    17finmientras
+    18 si numsec=num 
+    19  mostrar "Felicidades el numero secreto es ",numsec
+    20 sino
+    21  mostrar "Se acabaron las vidas"
+    22  mostrar "El numero sereo es ",vidas
+    23 finsi
+    24fin
+    
+    
+    Seudocodigo
+    Algoritmo sin_titulo
+	numsec<-azar(100)+1	
+	num<-0
+	vidas<-7
+	Escribir "Adivina el numero secreto"
+	Leer num
+	Mientras numsec<>num y vidas>0 Hacer 
+		si numsec>num
+			Escribir "Tu numero es menor al numero secreto"
+			vidas=vidas-1
+			Escribir "Adivina el numero secreto ","te quedan ",vidas," vidas"
+			Leer num
+		SiNo
+			Escribir "El numero ingresado es mayor al numero secreto"
+			vidas=vidas-1
+			Escribir "Adivina el numero secreto ","te quedan ",vidas," vidas"
+			Leer num
+			
+		FinSi
+	FinMientras
+	si numsec=num 
+		Escribir "Felicidades, el numero secreto es ",numsec
+	SiNo
+		Escribir "Se acabaron las vidas"
+		Escribir "El numero secreto es ",numsec
+	FinSi
+    FinAlgoritmo
+    
+    Diagrama
+   ![diagrama completo adivina el numero](https://user-images.githubusercontent.com/113545541/193893391-949176c3-9e8a-44ec-aee3-da191b025dbd.png)
+
+    
 
 
     
