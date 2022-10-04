@@ -596,7 +596,9 @@
     FinAlgoritmo
     
     Diagrama
-   ![diagrama completo adivina el numero](https://user-images.githubusercontent.com/113545541/193893391-949176c3-9e8a-44ec-aee3-da191b025dbd.png)
+    
+   ![diagrama completo adivina el numero](https://user-images.githubusercontent.com/113545541/193893687-d91d2d2e-b826-4d50-8440-5374c0143e5e.png)
+
 
     
 
