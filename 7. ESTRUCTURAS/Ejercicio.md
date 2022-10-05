@@ -598,6 +598,35 @@
     Diagrama
     
    ![diagrama completo adivina el numero](https://user-images.githubusercontent.com/113545541/193893687-d91d2d2e-b826-4d50-8440-5374c0143e5e.png)
+   
+   
+  CALIFICACION FINAL
+  
+    Algoritmo sin_titulo
+	edad1<-0
+	edad2<-0
+	edad3<-0
+	edad4<-0
+	edad5<-0
+	prom<-0
+	
+	Escribir "Ingresa la edad del primier alumno"
+	leer edad1
+	Escribir "ingresa la edad del segundo alumno"
+	leer edad2
+	Escribir "Ingresa la edad del tercer alumno"
+	leer edad3
+	Escribir "Ingresa la edad del cuarto alumno"
+	leer edad4
+	Escribir "Ingresa la edad del quinto alumno"
+	leer edad5
+	prom=(edad1+edad2+edad3+edad4+edad5)/5
+	
+	Escribir "El promedio de edad de los alumnos es ",prom
+	
+	
+    FinAlgoritmo
+
 
 
     
