@@ -629,6 +629,67 @@
 
 
 
+Funciones dentro de las variables
+                     
+    d
+    Funcion prom<-Promedio(cal1,cal2,cal3)
+	p<-(cal1+cal2+cal3)/3
+	si p>=6 Entonces
+		Escribir alum2," Aprobado"
+		Escribir "Tu calificacion es ",p
+	SiNo
+		Escribir alum2," Reprobado,"
+		Escribir "Tu calificacion es ",p
+	FinSi
+    Fin Funcion
+
+    Algoritmo sin_titulo
+	Escribir "ingresa la primera calificacion de codigo"
+	leer cal1
+	Escribir "ingresa la seguda calificacion de codigo"
+	Leer cal2
+	Escribir "ingresa la tercera calificacion de codigo"
+	Leer cal3
+
+	
+	
+	Escribir "ingresa la primera calificacion de codigo"
+	leer cal4
+	Escribir "ingresa la seguda calificacion de codigo"
+	Leer cal5
+	Escribir "ingresa la tercera calificacion de codigo"
+	Leer cal6
+
+	
+	Escribir "Estudiante 1:",Promedio(cal1,cal2,cal3)
+	Escribir "Estudiante 2:",Promedio(cal4,cal5,cal6)
+	
+	
+     FinAlgoritmo
+     
+   Segundo ejemplo
+     
+     
+     Funcion subrayar(texto) 
+	Escribir Texto
+	Para x<--1 Hasta Longitud(texto) Con Paso 1 paso Hacer
+		Escribir Sin Saltar "_"
+	Fin Para
+	Escribir " "
+	
+     Fin Funcion
+
+     Algoritmo sin_titulo
+	
+	subrayar("Primer ejemplo")
+	
+	subrayar("Segundo ejemplo")
+	
+	subrayar("Tercer Ejemplo  de funciones en psint")
+     FinAlgoritmo
+
+
+
     
 
 
